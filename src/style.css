@@ -1,1 +1,79 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+    background: green;
+  }
+  
+  .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 500px;
+    width: 350px;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid;
+    margin-top: 15px;
+    position: relative;
+    font-size: 70px;
+    background-color: white;
+  }
+  
+  .spade::before {
+    content: "♠";
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  
+  .club::before {
+    content: "♣";
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  
+  .heart::before {
+    content: "♥";
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: red;
+  }
+  
+  .diamond::before {
+    content: "♦";
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: red;
+  }
+  .spade::after {
+    content: "♠";
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .club::after {
+    content: "♣";
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .heart::after {
+    content: "♥";
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: red;
+  }
+  
+  .diamond::after {
+    content: "♦";
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: red;
+  }
+  
